@@ -1,0 +1,13 @@
+{
+  "name": "traceroute-visualizer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Webapp UI to visualize traceroute / routing paths",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
