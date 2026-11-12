@@ -13,6 +13,25 @@ npm start          # or: node server.js
 
 Port is `4180` by default. Override with `PORT=4181 npm start`.
 
+## Screenshots
+
+Sample route (`/?demo=1`) — route rail, latency profile, hop table, summary and inspector:
+
+![RouteScope sample route](screenshots/hero.png)
+
+Live trace against `1.1.1.1` streamed hop by hop, with real scope badges
+(CGNAT / private / public):
+
+![Live traceroute streamed into the UI](screenshots/live-trace.png)
+
+Narrow viewport — the layout collapses to a single column:
+
+<p align="center">
+  <img src="screenshots/mobile.png" alt="Mobile layout" width="330" />
+</p>
+
+All shots were captured with headless Chromium at 1440×1281 and 430×2314.
+
 ## Features
 
 - **Animated route backdrop** — canvas topology of drifting router nodes, proximity links and
